@@ -1,0 +1,33 @@
+.card {
+  border: 1px solid #eee;
+  color: #eee;
+  text-align: center;
+  padding: 1rem;
+  align-items: center;
+}
+.card:hover {
+  background-color: #414141;
+}
+.card h3 {
+  font: 1.4rem;
+  padding: 1rem;
+}
+.card p {
+  padding: 10px 0;
+}
+.bar {
+  border-bottom: 1px solid #eee;
+  width: 10%;
+  margin: 1.5rem 0;
+  display: inline-block;
+}
+.btc {
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+#buyBTN {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+}

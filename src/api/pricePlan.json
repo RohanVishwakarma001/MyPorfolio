@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "plan_namw": "- Basic -",
+    "price": "$100",
+    "duration": "- 3 Days -",
+    "pages": "- 3 Pages -",
+    "work": "- Frontend -",
+    "compatibility": "- Responsive Design -"
+  },
+  {
+    "id": 2,
+    "plan_namw": "- Premium -",
+    "price": "$200",
+    "duration": "- 5 Days -",
+    "pages": "- 5 Pages -",
+    "work": "- Frontend -",
+    "compatibility": "- Responsive Design -"
+  },
+  {
+    "id": 3,
+    "plan_namw": "- Buisness -",
+    "price": "$500",
+    "duration": "- 10-15 Days -",
+    "pages": "- All Pages -",
+    "work": "- Frontend and Backend -",
+    "compatibility": "- Responsive Design -"
+  }
+]

@@ -1,0 +1,21 @@
+.project_card {
+  background: #1a1919;
+  padding: 1.2rem 1rem;
+}
+.project_card img {
+  width: 100%;
+}
+.project-title {
+  color: #fff;
+  padding: 1rem 0;
+}
+.project-dec p {
+  padding-bottom: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  align-items: justify;
+}
+.project-btn {
+  display: flex;
+  justify-content: space-between;
+}

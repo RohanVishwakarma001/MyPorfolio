@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+h1,
+h4,
+p,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+  transition: 0.3s;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.btn-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

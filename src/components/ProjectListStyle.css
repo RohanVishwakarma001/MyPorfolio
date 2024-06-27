@@ -1,0 +1,28 @@
+.project {
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: black;
+}
+.project h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.project-containor {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+@media screen and (max-width: 940px) {
+  .project-containor {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+  .project h1 {
+    font-size: 2rem;
+  }
+}

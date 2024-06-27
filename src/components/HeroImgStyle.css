@@ -1,0 +1,40 @@
+.heroImg {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  z-index: 1;
+}
+.heroImg::before {
+  content: "";
+
+  background-image: url("../../public/img/IntroImage.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heading h1 {
+  font-size: 2.4rem;
+}
+.heading p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+}
