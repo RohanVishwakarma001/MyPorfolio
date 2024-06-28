@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Resume from "../../public/MyResume2.pdf";
 
-const CV_URL = "../../public/MyResume2.pdf";
 function Navbar() {
   const [click, setClick] = useState(false);
 
