@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./NavbarStyle.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Resume from "../../public/MyResume2.pdf";
 
 const CV_URL = "../../public/MyResume2.pdf";
 function Navbar() {
@@ -20,15 +21,6 @@ function Navbar() {
   };
 
   window.addEventListener("scroll", changeColor);
-
-  const downlodeCV = (url) => {
-    const aTag = document.createElement("a");
-    aTag.hred = url;
-    aTag.setAttribute("downlode", "MyResume2.pdf");
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
 
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -49,12 +41,10 @@ function Navbar() {
         <li>
           <Link to={"/contact"}>Contact</Link>
         </li>
-        <li
-          onClick={() => {
-            downlodeCV(CV_URL);
-          }}
-        >
-          <Link>Downlode CV</Link>
+        <li>
+          <a href={Resume} download="Resume">
+            Downlode My CV
+          </a>
         </li>
       </ul>
       <div className="hamburger" onClick={handelClick}>
