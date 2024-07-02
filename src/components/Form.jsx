@@ -2,6 +2,10 @@ import "./FormStyle.css";
 
 import React from "react";
 
+const DefaltValue = (e) => {
+  e.preventDefault();
+};
+
 function Form() {
   return (
     <div className="form">
@@ -14,7 +18,9 @@ function Form() {
         <input type="text" placeholder="Subject" />
         <label htmlFor="">Message</label>
         <textarea rows="6" placeholder="Type your message here"></textarea>
-        <button className="btn">Submit</button>
+        <button className="btn" onClick={DefaltValue}>
+          Submit
+        </button>
       </form>
     </div>
   );
